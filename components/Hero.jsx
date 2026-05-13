@@ -186,7 +186,7 @@ const Hero = ({ setIsOpen }) => {
                 }}>Starting From</p>
                 <p className="blink-price" style={{
                   fontFamily: F_JOST, fontSize: '30px',
-                  fontWeight: '900', color: GOLD, margin: 0, lineHeight: 1,
+                  fontWeight: '900', color: '#fff', margin: 0, lineHeight: 1,
                 }}>
                   ₹ 2.2 Cr* Onwards
                 </p>
@@ -216,7 +216,7 @@ const Hero = ({ setIsOpen }) => {
                   display: 'flex', alignItems: 'center', gap: '8px',
                   transition: 'border-color 0.25s, background 0.25s',
                 }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = GOLD; e.currentTarget.style.background = 'rgba(181,135,40,0.1)' }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = GOLD; e.currentTarget.style.background = 'rgba(2, 106, 82, 0.1)' }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.32)'; e.currentTarget.style.background = 'transparent' }}
               >
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">

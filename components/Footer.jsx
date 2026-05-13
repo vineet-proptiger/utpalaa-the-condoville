@@ -18,11 +18,17 @@ const Footer = () => (
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
         <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />
       </div>
-      <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '32px', textAlign: 'justify' }}
+      <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '40px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
         Utpalaa The Condoville is an exclusive luxury residential enclave located at Ruby, off EM Bypass, one of Kolkata&apos;s most sought-after residential locations. Crafted by Ambuja Neotia, the project offers thoughtfully designed, vaastu-compliant 3, 4 &amp; 5 BHK homes (Duplexes) starting from ₹ 2.2 Cr*, featuring expansive layouts, abundant natural light, panoramic views, and iconic triple-height sky balconies. Surrounded by lush greenery yet strategically positioned close to major business hubs, healthcare, education and lifestyle destinations — Utpalaa delivers a refined living experience that blends urban convenience with calm, nature-led living.
       </p>
-      {/* <div style={{ borderTop: '1px solid #333', marginBottom: '24px' }} /> */}
+
+      {/* RERA Section */}
+      <div style={{ marginBottom: '40px' }} data-aos="fade-up">
+        <p style={{ fontSize: '14px', color: '#888', fontFamily: F_SANS }}>
+          Project RERA Number: <span style={{ color: '#fff', fontWeight: '700', marginLeft: '4px' }}>WBRERA/P/KOL/2025/002427</span>
+        </p>
+      </div>
     </div>
 
     <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-4 py-4 px-6 border-t border-[#222] text-center sm:text-left max-w-[1200px] mx-auto">
