@@ -10,36 +10,36 @@ const highlightIconProps = { size: 26, strokeWidth: 1.5 }
 
 const highlights = [
   {
-    text: 'Strategic EM Bypass Location near Ruby',
+    text: 'Well-connected residential location with easy access to key city hubs',
     icon: <MapPin {...highlightIconProps} />,
   },
   {
-    text: 'Low-density Living with Enhanced Privacy',
-    icon: <Shield {...highlightIconProps} />,
-  },
-  {
-    text: '70+ Premium Lifestyle Amenities',
-    icon: <Sparkles {...highlightIconProps} />,
-  },
-  {
-    text: 'Iconic Triple-Height Sky Balconies',
+    text: 'Thoughtfully planned residential towers with comfortable living spaces',
     icon: <Building2 {...highlightIconProps} />,
   },
   {
-    text: 'Vaastu-Compliant Luxury 3, 4 & 5 BHK Homes (Duplexes)',
+    text: 'Landscaped open areas designed for a calm and green environment',
+    icon: <Leaf {...highlightIconProps} />,
+  },
+  {
+    text: 'Welcoming entrance lobby with modern design elements',
     icon: <Home {...highlightIconProps} />,
   },
   {
-    text: 'Expansive Layouts with Abundant Natural Light',
+    text: 'Contemporary residential architecture with thoughtfully designed exteriors',
+    icon: <Sparkles {...highlightIconProps} />,
+  },
+  {
+    text: 'Secure living with controlled access and modern safety systems',
+    icon: <Shield {...highlightIconProps} />,
+  },
+  {
+    text: 'Well-planned lifestyle amenities for everyday recreation and wellness',
+    icon: <TrendingUp {...highlightIconProps} />,
+  },
+  {
+    text: 'Pleasant views overlooking landscaped open spaces',
     icon: <LayoutPanelLeft {...highlightIconProps} />,
-  },
-  {
-    text: 'Close to Business, Healthcare & Education Hubs',
-    icon: <Navigation {...highlightIconProps} />,
-  },
-  {
-    text: 'Surrounded by Lush Greenery — Nature-Led Living',
-    icon: <Leaf {...highlightIconProps} />,
   },
 ]
 
