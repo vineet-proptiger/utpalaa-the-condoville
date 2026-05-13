@@ -14,24 +14,24 @@ const locationCategories = [
       </svg>
     ),
     items: [
-      { name: 'EM Bypass', time: '01 Min' },
-      { name: 'Ruby Hospital Junction', time: '02 Mins' },
-      { name: 'Sector V (IT Hub)', time: '15 Mins' },
-      { name: 'Netaji Subhash Chandra Bose International Airport', time: '30 Mins' },
+      { name: 'EM Bypass', time: '10 Mins' },
+      { name: 'New Town Action Area', time: '15 Mins' },
+      { name: 'Sector V (Salt Lake IT Hub)', time: '20 Mins' },
+      { name: 'Howrah Railway Station', time: '40 Mins' },
     ],
   },
   {
-    title: 'Education & Institutions',
+    title: 'Education Hub',
     icon: (
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 10v6M2 10l10-5 10 5-10 5z" /><path d="M6 12v5c3 3 9 3 12 0v-5" />
       </svg>
     ),
     items: [
-      { name: 'DPS Ruby Park', time: '05 Mins' },
-      { name: 'Techno India University', time: '10 Mins' },
-      { name: 'Jadavpur University', time: '15 Mins' },
-      { name: "St. Xavier's College", time: '20 Mins' },
+      { name: 'Reputed International Schools', time: '10–15 Mins' },
+      { name: 'CBSE & ICSE Schools', time: '10 Mins' },
+      { name: 'Leading Colleges & Universities', time: '20–25 Mins' },
+      { name: 'Educational Hubs of New Town & Salt Lake', time: '20 Mins' },
     ],
   },
   {
@@ -42,14 +42,14 @@ const locationCategories = [
       </svg>
     ),
     items: [
-      { name: 'Ruby General Hospital', time: '02 Mins' },
-      { name: 'Peerless Hospital', time: '10 Mins' },
-      { name: 'AMRI Hospital, Salt Lake', time: '15 Mins' },
-      { name: 'Apollo Gleneagles Hospital', time: '20 Mins' },
+      { name: 'Multi-specialty Hospitals', time: '10 Mins' },
+      { name: 'Well-equipped Clinics & Diagnostics', time: '5 Mins' },
+      { name: 'Renowned Hospitals in Salt Lake', time: '20 Mins' },
+      { name: '24×7 Emergency Medical Facilities', time: 'Nearby' },
     ],
   },
   {
-    title: 'Retail & Lifestyle',
+    title: 'Malls / Shopping',
     icon: (
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" /><line x1="3" y1="6" x2="21" y2="6" />
@@ -57,10 +57,25 @@ const locationCategories = [
       </svg>
     ),
     items: [
-      { name: 'South City Mall', time: '05 Mins' },
-      { name: 'Mani Square Mall', time: '10 Mins' },
-      { name: 'Quest Mall', time: '15 Mins' },
-      { name: 'Park Street', time: '25 Mins' },
+      { name: 'Daily Convenience Stores', time: 'Nearby' },
+      { name: 'Local Markets & Retail Zones', time: '10 Mins' },
+      { name: 'Shopping Malls in New Town & Rajarhat', time: '15–20 Mins' },
+      { name: 'High-street Retail & Dining Options', time: '20 Mins' },
+    ],
+  },
+  {
+    title: 'Recreation',
+    icon: (
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 22V12" /><path d="M5 12H2a10 10 0 0 0 20 0h-3" />
+        <path d="M12 12a5 5 0 0 0 5-5c0-2-1-3.9-3-5a5 5 0 0 0-9 2.9A5 5 0 0 0 12 12z" />
+      </svg>
+    ),
+    items: [
+      { name: 'Landscaped Green Spaces Within the Township', time: 'Nearby' },
+      { name: 'Parks & Walking Trails', time: 'Nearby' },
+      { name: 'Fitness, Sports & Wellness Facilities', time: 'In Vicinity' },
+      { name: 'Leisure & Entertainment Zones of New Town', time: '20–30 Mins' },
     ],
   },
 ]
