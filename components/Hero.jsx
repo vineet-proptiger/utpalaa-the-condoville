@@ -36,7 +36,7 @@ const Hero = ({ setIsOpen }) => {
         {/* Left-heavy dark overlay */}
         <div style={{
           position: 'absolute', inset: 0,
-          background: 'linear-gradient(105deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.65) 55%, rgba(0,0,0,0.28) 100%)',
+          background: 'linear-gradient(105deg, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.08) 100%)',
         }} />
         {/* Bottom fade */}
         <div style={{
