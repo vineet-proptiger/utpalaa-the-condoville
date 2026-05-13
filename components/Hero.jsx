@@ -138,10 +138,10 @@ const Hero = ({ setIsOpen }) => {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-8">
                 {[
-                  'Priority Access for Selectd Homebuyers',
-                  'Special Pre-Launch Ownership Advantages',
-                  'First Choice of Premium Residences',
-                  'Limited-Time Invitation Benefits',
+                  ' Strategic EM Bypass location near Ruby',
+                  'Low-density living with enhanced privacy',
+                  ' 70+ premium lifestyle amenities',
+                  'Iconic triple-height sky balconies',
                 ].map((item, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <span style={{
