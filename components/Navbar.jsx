@@ -22,7 +22,7 @@ const ProjectLogo = () => (
     src={logoImages.tarc}
     alt="Utpalaa The Condoville"
     className="h-14 md:h-16 w-auto object-contain transition-all"
-    style={{ maxWidth: '250px' }}
+    style={{ maxWidth: '250px', backgroundColor: 'var(--color-gold)', borderRadius: '8px', padding: '4px 8px' }}
   />
 )
 
