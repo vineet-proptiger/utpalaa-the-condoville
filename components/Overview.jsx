@@ -222,16 +222,16 @@ const Overview = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
 
           {/* LEFT: Image */}
-          <div data-aos="fade-right" style={{ display: 'flex' }}>
+          <div data-aos="fade-right">
             <div
-              className="relative w-full aspect-square lg:aspect-auto lg:h-full lg:min-h-[340px]"
+              className="relative w-full aspect-square"
               style={{
                 borderRadius: '16px', overflow: 'hidden',
                 boxShadow: '0 16px 48px rgba(0,0,0,0.14)',
                 border: '3px solid #fff',
               }}
             >
-              <Image src={overviewImage} alt="Utpalaa The Condoville" fill className="object-cover object-top"
+              <Image src={overviewImage} alt="Utpalaa The Condoville" fill className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw" priority />
               {/* <div style={{
               position: 'absolute', bottom: 0, left: 0, right: 0,
