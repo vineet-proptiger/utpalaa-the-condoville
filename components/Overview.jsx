@@ -223,11 +223,14 @@ const Overview = () => {
 
           {/* LEFT: Image */}
           <div data-aos="fade-right" style={{ display: 'flex' }}>
-            <div style={{
-              position: 'relative', borderRadius: '16px', overflow: 'hidden',
-              boxShadow: '0 16px 48px rgba(0,0,0,0.14)',
-              border: '3px solid #fff', width: '100%', minHeight: '340px',
-            }}>
+            <div
+              className="relative w-full aspect-square lg:aspect-auto lg:h-full lg:min-h-[340px]"
+              style={{
+                borderRadius: '16px', overflow: 'hidden',
+                boxShadow: '0 16px 48px rgba(0,0,0,0.14)',
+                border: '3px solid #fff',
+              }}
+            >
               <Image src={overviewImage} alt="Utpalaa The Condoville" fill className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 33vw" priority />
               {/* <div style={{
