@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 import React, { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { logoImages } from '../lib/images'
@@ -16,13 +16,22 @@ const navLinks = [
   { name: 'Developer', href: '#developer' },
 ]
 
-/* ── Inline SVG Logo ─────────────────────────────────────────── */
 const ProjectLogo = () => (
-  <img
-    src={logoImages.tarc}
-    alt="Utpalaa The Condoville"
-    className="h-14 md:h-16 w-auto object-contain transition-all"
-    style={{ maxWidth: '250px', filter: 'sepia(1) saturate(3) hue-rotate(135deg) brightness(0.5)' }}
+  <div
+    className="h-12 md:h-14 w-48 md:w-56 transition-all"
+    style={{
+      backgroundColor: 'var(--color-gold)',
+      WebkitMaskImage: `url(${logoImages.tarc})`,
+      maskImage: `url(${logoImages.tarc})`,
+      WebkitMaskSize: 'contain',
+      maskSize: 'contain',
+      WebkitMaskRepeat: 'no-repeat',
+      maskRepeat: 'no-repeat',
+      WebkitMaskPosition: 'left center',
+      maskPosition: 'left center',
+    }}
+    role="img"
+    aria-label="Utpalaa The Condoville"
   />
 )
 

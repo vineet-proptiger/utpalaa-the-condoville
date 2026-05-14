@@ -27,7 +27,22 @@ export default function PrivacyPolicy() {
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
           <Link href="/" className="flex items-center">
-            <img src={logoImages.tarc} alt="Utpalaa The Condoville" className="h-10 sm:h-14 w-auto object-contain" />
+            <div
+              className="h-10 sm:h-12 w-40 sm:w-48 transition-all"
+              style={{
+                backgroundColor: 'var(--color-gold)',
+                WebkitMaskImage: `url(${logoImages.tarc})`,
+                maskImage: `url(${logoImages.tarc})`,
+                WebkitMaskSize: 'contain',
+                maskSize: 'contain',
+                WebkitMaskRepeat: 'no-repeat',
+                maskRepeat: 'no-repeat',
+                WebkitMaskPosition: 'left center',
+                maskPosition: 'left center',
+              }}
+              role="img"
+              aria-label="Utpalaa The Condoville"
+            />
           </Link>
           <Link
             href="/"
