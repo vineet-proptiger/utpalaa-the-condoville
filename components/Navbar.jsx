@@ -18,7 +18,7 @@ const navLinks = [
 
 const ProjectLogo = () => (
   <div
-    className="h-12 md:h-14 w-48 md:w-56 transition-all"
+    className="h-10 md:h-14 w-40 md:w-56 transition-all"
     style={{
       backgroundColor: 'var(--color-gold)',
       WebkitMaskImage: `url(${logoImages.tarc})`,
