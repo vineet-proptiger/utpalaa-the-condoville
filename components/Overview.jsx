@@ -222,9 +222,9 @@ const Overview = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
 
           {/* LEFT: Image */}
-          <div data-aos="fade-right">
+          <div data-aos="fade-right" className="flex">
             <div
-              className="relative w-full aspect-square"
+              className="relative w-full aspect-[3/4] lg:h-full"
               style={{
                 borderRadius: '16px', overflow: 'hidden',
                 boxShadow: '0 16px 48px rgba(0,0,0,0.14)',
